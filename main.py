@@ -134,7 +134,7 @@ async def add_channel(client, message: Message):
     if not any(user[0] == user_id for user in subscription_data):
         await message.reply_text(
             "🚫 **You are not a premium user.**\n\n"
-            "🔑 Please contact my admin at: **@Thor_700** for subscription details."
+            "🔑 Please contact my admin at: **@tgberlin07** for subscription details."
         )
         return
 
